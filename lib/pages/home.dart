@@ -27,7 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
     _initializeServices();
   }
-
+ 
   _initializeServices() async {
     setState(() => loading = true);
     await _cameraService.initialize();
