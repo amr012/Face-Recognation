@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Column(
                         children: [
                           Text(
-                            "FACE RECOGNITION AUTHENTICATION",
+                            "FACE RECOGNITION",
                             style: TextStyle(
                                 fontSize: 25, fontWeight: FontWeight.bold),
                             textAlign: TextAlign.center,
@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             height: 20,
                           ),
                           Text(
-                            "Demo application that uses Flutter and tensorflow to implement authentication with facial recognition",
+                            "",
                             style: TextStyle(
                               fontSize: 16,
                             ),
@@ -197,42 +197,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             thickness: 2,
                           ),
                         ),
-                        InkWell(
-                          onTap: _launchURL,
-                          child: Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(10),
-                              color: Colors.black,
-                              boxShadow: <BoxShadow>[
-                                BoxShadow(
-                                  color: Colors.blue.withOpacity(0.1),
-                                  blurRadius: 1,
-                                  offset: Offset(0, 2),
-                                ),
-                              ],
-                            ),
-                            alignment: Alignment.center,
-                            padding: EdgeInsets.symmetric(
-                                vertical: 14, horizontal: 16),
-                            width: MediaQuery.of(context).size.width * 0.8,
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Text(
-                                  'CONTRIBUTE',
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                                SizedBox(
-                                  width: 10,
-                                ),
-                                FaIcon(
-                                  FontAwesomeIcons.github,
-                                  color: Colors.white,
-                                )
-                              ],
-                            ),
-                          ),
-                        ),
+
                       ],
                     )
                   ],

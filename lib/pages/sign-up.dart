@@ -107,7 +107,8 @@ class SignUpState extends State<SignUp> {
             }
           } else {
             setState(() {
-              faceDetected = null;
+              print(">>>>>>>>>>>>>>>>>>>>>>");
+              // faceDetected = null;
             });
           }
 
